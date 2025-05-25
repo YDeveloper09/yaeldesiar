@@ -166,7 +166,7 @@ const roles = [
     title: "FXP App Promo Video",
     description: "A promotional video showcasing features of the FXP App for athletes, edited with Adobe Premiere and After Effects.",
     mediaType: "video",
-    mediaSrc: "/videos/fxp-teaser.mp4",
+    mediaSrc: "/videos/fxp-teaser",
     links: {
       demo: "https://www.youtube.com/watch?v=8b4jPerFWJ0"
     }
@@ -202,7 +202,7 @@ const roles = [
     title: "Game-Changing Football Boots – Built for Performance",
     description: "A dynamic reel showcasing a high-performance football boot designed to elevate solo training. This short video highlights how the new boot enhances grip, comfort, and control — giving players the edge they need when training alone",
     mediaType: "video",
-    mediaSrc: "/videos/New boot Video.mp4",
+    mediaSrc: "/videos/New Boot.mp4",
     links: {
       demo: "https://www.instagram.com/p/DJkO-7oPupE/"
     }

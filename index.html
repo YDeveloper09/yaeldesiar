@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Yael Desiar | Portfolio</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fira+Code&family=Poppins:wght@400;600;700&display=swap"
+    rel="stylesheet"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+  
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  
+  <link rel="stylesheet" href="style.css" />
+  
+  <style>
+    /* Hide Bootstrap navbar on large screens */
+    .mobile-navbar {
+      display: none;
+    }
+    @media (max-width: 991.98px) {
+      /* Show navbar on medium and smaller */
+      .mobile-navbar {
+        display: block;
+      }
+      /* Hide sidebar on medium and smaller */
+      .sidebar {
+        display: none;
+      }
+    }
+  </style>
+</head>
+<body class="dark">
+  <div id="root">
+
+    <!-- Sidebar for large screens -->
+    <aside class="sidebar d-none d-lg-block">
+      <div class="sidebar-content">
+        <img src="images/Ydeveloper-Logo.png" alt="YD Logo" class="img-fluid mb-3" style="max-width: 300px;" />
+        <nav class="nav">
+          <ul>
+            <li><a href="#intro">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+
+        <div class="theme-toggle">
+          <label class="switch" aria-label="Toggle light/dark mode">
+            <input type="checkbox" id="theme-switch" />
+            <span class="slider round"></span>
+          </label>
+          <span class="theme-label">Light Mode</span>
+        </div>
+
+        <ul class="social-icons">
+          <li><a href="https://github.com/YDeveloper09" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a></li>
+          <li><a href="https://mail.google.com/mail/?view=cm&fs=1&to=yajilie17@gmail.com&su=Excited%20to%20Connect%20with%20You%21&body=Hello%20Yael%2C%0A%0AI%20just%20explored%20your%20portfolio%20and%20I'm%20really%20impressed%20with%20your%20work.%20I'd%20love%20to%20chat%20about%20potential%20collaborations%20or%20projects.%20Looking%20forward%20to%20hearing%20from%20you%21%0A%0ABest%20regards%2C%0A" aria-label="Email"><i class="fas fa-envelope"></i></a></li>
+          <li><a href="https://wa.me/+639473711155" target="_blank" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a></li>
+        </ul>
+        <footer class="footer">&copy; 2025 Yael Desiar</footer>
+      </div>
+    </aside>
+
+    <!-- Bootstrap Navbar for mobile/tablet -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark mobile-navbar">
+  <div class="container-fluid">
+    <!-- Brand Logo -->
+    <a class="navbar-brand d-flex align-items-center" href="#">
+      <img src="images/Ydeveloper-Logo.png" alt="YDeveloper Logo" class="img-fluid mb-2" style="max-width: 9rem;" />
+    </a>
+
+    <!-- Custom Hamburger Button (2 lines) -->
+    <button
+      class="navbar-toggler custom-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarNav"
+      aria-controls="navbarNav"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="custom-toggler-line"></span>
+      <span class="custom-toggler-line"></span>
+    </button>
+
+    <!-- Navbar Links -->
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#intro">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#projects">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+
+      <!-- Theme Toggle and Social Links -->
+      <div class="d-flex align-items-center ms-lg-3 mt-3 mt-lg-0">
+        <div class="theme-toggle me-3">
+          <label class="switch" aria-label="Toggle light/dark mode">
+            <input type="checkbox" id="theme-switch-mobile" />
+            <span class="slider round"></span>
+          </label>
+          <span class="theme-label text-white ms-2 d-none d-lg-inline">Light Mode</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+
+    
+
+    <!-- Main content -->
+    <main class="main-content container mt-4">
+      <section id="intro" class="section intro">
+  <div class="intro-text-wrapper">
+    <p class="intro-line intro-line-1">Hi, my name is</p>
+    <h2 class="intro-line intro-line-2">Yael Desiar.</h2>
+    <h3 class="intro-line intro-line-3">
+      I'm a <span id="typed"></span>
+    </h3>
+    <p class="intro-text intro-line intro-line-4">
+      I craft fast, beautiful websites and create impactful multimedia content that elevates brands online.
+    </p>
+  </div>
+  <img src="images/ydeveloper.jpg" alt="Yael Desiar" class="intro-image" />
+</section>
+
+<section class="achievement-section" aria-label="Achievements">
+  <div class="achievement-item" tabindex="0">
+    <div class="achievement-icon">🏆</div>
+    <div class="achievement-number" data-target="120">120+</div>
+    <div class="achievement-label">Projects Completed</div>
+  </div>
+  <div class="achievement-item" tabindex="0">
+    <div class="achievement-icon">👥</div>
+    <div class="achievement-number" data-target="50">50+</div>
+    <div class="achievement-label">Happy Clients</div>
+  </div>
+  <div class="achievement-item" tabindex="0">
+    <div class="achievement-icon">⏳</div>
+    <div class="achievement-number" data-target="8">8</div>
+    <div class="achievement-label">Years Experience</div>
+  </div>
+  <div class="achievement-item" tabindex="0">
+    <div class="achievement-icon">🌍</div>
+    <div class="achievement-number" data-target="10">10</div>
+    <div class="achievement-label">Countries Served</div>
+  </div>
+</section>
+
+      <section id="about" class="section">
+        <h2>About Me</h2>
+        <p>
+          Web & Media Specialist with 6 years of experience in graphic design and video editing, and 2 years in web development. Passionate about crafting elegant user experiences and dynamic visual content — skilled in HTML, CSS, JavaScript, and modern multimedia tools
+        </p>
+      </section>
+
+
+      <section id="tools" class="section">
+  <h2>Web Development Stack</h2>
+  <div class="tools-grid">
+    <img src="images/html5.png" alt="HTML" class="tool-icon" />
+    <img src="images/css-logo.png" alt="CSS" class="tool-icon" />
+    <img src="images/JavaScript-logo.png" alt="JavaScript" class="tool-icon" />
+    <img src="images/Bootstrap_logo.svg.png" alt="Bootstrap" class="tool-icon" />
+    <img src="images/github-color.svg" alt="github" class="tool-icon" />
+    <img src="images/webpack.png" alt="webpack" class="tool-icon" />
+    <img src="images/Wordpress_Blue_logo.png" alt="Wordpress" class="tool-icon" />
+    <img src="images/elementor.webp" alt="Elementor" class="tool-icon" />
+    <img src="images/shopify.webp" alt="Shopify" class="tool-icon" />
+    <img src="images/pagetify.webp" alt="Pagetify" class="tool-icon" />
+    <img src="images/e-composer.webp" alt="E-composer" class="tool-icon" />
+    <!-- Add more tool icons as needed -->
+  </div>
+  <h2 class="multimedia-tools">Creative Suite I Use</h2>
+  <div class="tools-grid">
+    <img src="images/photoshop.png" alt="photoshop" class="tool-icon" />
+    <img src="images/premiere.png" alt="premier" class="tool-icon" />
+    <img src="images/after effects.png" alt="after effects" class="tool-icon" />
+    <img src="images/canva.png" alt="canva" class="tool-icon" />
+    <img src="images/capcut.png" alt="capcut" class="tool-icon" />
+    <img src="images/filmora.webp" alt="filmora" class="tool-icon" />
+    <img src="images/kinemaster.webp" alt="kinemaster" class="tool-icon" />
+    <img src="images/photoroom-icon-256x256.webp" alt="capcut" class="tool-icon" />
+    <img src="images/ChatGPT_logo.svg.png" alt="filmora" class="tool-icon" />
+    <img src="images/Bing_Fluent_Logo.svg.png" alt="kinemaster" class="tool-icon" />
+    <!-- Add more tool icons as needed -->
+  </div>
+</section>
+
+
+      <section id="projects" class="section">
+        <h2>Website Projects</h2>
+        <div class="projects-grid" id="projects-grid">
+          <!-- Projects cards inserted dynamically here -->
+        </div>
+      </section>
+
+      <section id="multimedia-projects" class="projects-section">
+  <h2 class="section-title">🎬 Multimedia Projects</h2>
+  <div id="multimedia-grid" class="projects-grid"></div>
+</section>
+
+      <section id="carousel-section" class="section mt-5">
+  <h2 class="section-title">Featured Designs</h2>
+  <div id="designCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="images/bin.png" class="d-block w-100" alt="ads-design">
+      </div>
+      <div class="carousel-item">
+        <img src="images/bsb.png" class="d-block w-100" alt="ads-design">
+      </div>
+      <div class="carousel-item">
+        <img src="images/eb.png" class="d-block w-100" alt="ads-design">
+      </div>
+       <div class="carousel-item">
+        <img src="images/jl.png" class="d-block w-100" alt="ads-design">
+      </div>
+      <div class="carousel-item">
+        <img src="images/caricature.png" class="d-block w-100" alt="caricature-design">
+      </div>
+      <div class="carousel-item">
+        <img src="images/White Blue Modern Rounded Travel Desktop Prototype (1).png" class="d-block w-100" alt="website design">
+      </div>
+      <div class="carousel-item">
+        <img src="images/OUTSTANDING WOMEN.png" class="d-block w-100" alt="book cover">
+      </div>
+      <div class="carousel-item">
+        <img src="images/wanted.png" class="d-block w-100" alt="social media post">
+      </div>
+      <div class="carousel-item">
+        <img src="images/insta.png" class="d-block w-100" alt="social media post">
+      </div>
+      <div class="carousel-item">
+        <img src="images/ptc.png" class="d-block w-100" alt="poster">
+      </div>
+      <div class="carousel-item">
+        <img src="images/trials.png" class="d-block w-100" alt="poster">
+      </div>
+      <div class="carousel-item">
+        <img src="images/mohamed.png" class="d-block w-100" alt="poster">
+      </div>
+      <div class="carousel-item">
+        <img src="images/harry.png" class="d-block w-100" alt="poster">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#designCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#designCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</section>
+
+<section class="gdrive-proj-section" aria-label="Google Drive Project Links">
+  <h2 class="gdrive-proj-heading">📂 Explore More Projects</h2>
+  <p class="gdrive-proj-subtext">Explore my video and image projects stored on Google Drive.</p>
+
+  <div class="gdrive-proj-category">
+    <div class="gdrive-proj-grid">
+      <a href="https://drive.google.com/drive/folders/17YHzdFXwoGklBd1vKWc6RMRUjnGRLxjJ?usp=drive_link" target="_blank" class="gdrive-proj-card" rel="noopener noreferrer">
+        <div class="gdrive-proj-card__icon">🎬</div>
+        <div class="gdrive-proj-card__title">Visual Projects (Video)</div>
+        <p class="gdrive-proj-card__description">A powerful mix of promotional videos, motivational reels, short-form content, and long-form storytelling—crafted to engage audiences, elevate brands, and drive results across social platforms.</p>
+      </a>
+      <a href="https://drive.google.com/drive/folders/1r9dxyDu6V512rlur-d1TOyCCe-EyxbDb?usp=drive_link" target="_blank" class="gdrive-proj-card" rel="noopener noreferrer">
+        <div class="gdrive-proj-card__icon">🖼️</div>
+        <div class="gdrive-proj-card__title">Visual Projects (Image)</div>
+        <p class="gdrive-proj-card__description">Eye-catching ad creatives and branded visuals tailored for social media—each image designed to stop the scroll, spark interest, and boost engagement with every post</p>
+      </a>
+    </div>
+  </div>
+</section>
+
+
+      <section id="contact" class="contact-section">
+  <h2 class="contact-title">Let’s Work Together</h2>
+  <p class="contact-subtitle">Have a project or idea in mind? Feel free to reach out!</p>
+  
+  <form action="https://formspree.io/f/your-form-id" method="POST" class="contact-form">
+    <div class="form-group">
+      <input type="text" name="name" placeholder="Your Name" required>
+    </div>
+    <div class="form-group">
+      <input type="email" name="email" placeholder="Your Email" required>
+    </div>
+    <div class="form-group">
+      <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+    </div>
+    <button type="submit" class="submit-btn">Send Message</button>
+  </form>
+</section>
+
+
+    <footer class="site-footer">
+  <p class="footer-text">
+    Designed & Built by <span class="footer-accent">Yael Desiar</span>
+  </p>
+  <div class="social-icons">
+    <a href="https://github.com/YDeveloper09" target="_blank" aria-label="GitHub">
+      <i class="fab fa-github"></i>
+    </a>
+    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=yajilie17@gmail.com&su=Excited%20to%20Connect%20with%20You%21&body=Hello%20Yael%2C%0A%0AI%20just%20explored%20your%20portfolio%20and%20I'm%20really%20impressed%20with%20your%20work.%20I'd%20love%20to%20chat%20about%20potential%20collaborations%20or%20projects.%20Looking%20forward%20to%20hearing%20from%20you%21%0A%0ABest%20regards%2C%0A" aria-label="Email">
+      <i class="fas fa-envelope"></i>
+    </a>
+      <a href="https://wa.me/+639473711155" target="_blank" aria-label="WhatsApp">
+      <i class="fab fa-whatsapp"></i>
+    </a>
+  </div>
+</footer>
+ 
+<!-- <button id="scrollToTopBtn" aria-label="Scroll to top">
+  <i class="fas fa-chevron-up"></i>
+  </button> -->
+  <!-- Bootstrap JS Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+
+ 
+
+</body>
+</html>

@@ -79,7 +79,7 @@ const roles = [
     {
         title: "Hawflein Solutions Website",
         description: "A professional website developed for Hawflein Solutions, an Australian immigration law firm. The site features a multi-step booking form, integrated payment processing via Stripe, and a clean, responsive design optimized for user experience and lead conversion.",
-        image: "/images/hawflein-website.jpg", // Replace with actual hosted screenshot URL if needed
+        image: "images/hawflein-website.jpg", // Replace with actual hosted screenshot URL if needed
         links: {
           demo: "https://hawflein.com"
         }
@@ -87,7 +87,7 @@ const roles = [
       {
         title: "HMCE Collective Website",
         description: "A corporate website created for HMCE Collective, showcasing their services across healthcare, commercial cleaning, construction, and events in Australia. Features include service-specific landing pages, a multi-step booking form, mobile responsiveness, and integrated lead capture functionality.",
-        image: "/images/hmce collective.jpg", // Replace with a real screenshot URL if available
+        image: "images/hmce collective.jpg", // Replace with a real screenshot URL if available
         links: {
           demo: "https://hmcecollective.com.au"
         }
@@ -95,7 +95,7 @@ const roles = [
       {
         title: "Fut x Perform App Landing Page",
         description: "A dedicated landing page built for the FXP App by Fut x Perform. Designed to promote the app's features for athletic training and performance tracking, the page includes clear call-to-actions, engaging visuals, app download links, and a mobile-optimized layout to drive user sign-ups.",
-        image: "/images/fxp-app.jpg", // Replace with an actual screenshot if needed
+        image: "images/fxp-app.jpg", // Replace with an actual screenshot if needed
         links: {
           demo: "https://futxperform.com/pages/fxp-app"
         }
@@ -103,7 +103,7 @@ const roles = [
       {
         title: "Fut x Perform Networking Page",
         description: "A modern landing page designed for Fut x Perform's Networking program, highlighting athlete collaboration, mentorship opportunities, and exclusive events. Built to engage users with bold visuals, clear messaging, and a responsive layout that encourages registration and inquiries.",
-        image: "/images/fxp-networking.jpg", // Replace with actual screenshot URL
+        image: "images/fxp-networking.jpg", // Replace with actual screenshot URL
         links: {
           demo: "https://futxperform.com/pages/fut-x-perform-networking"
         }
@@ -111,7 +111,7 @@ const roles = [
       {
         title: "Nueva Vizcaya Police Provincial Office Website",
         description: "An official government website developed for the Nueva Vizcaya Police Provincial Office under the Philippine National Police. Built with user accessibility and transparency in mind, the site features announcements, downloadable resources, report submission links, and a responsive design tailored for both desktop and mobile users.",
-        image: "/images/Nueva Vizcaya ppo.jpg", // Replace with actual screenshot
+        image: "images/Nueva Vizcaya ppo.jpg", // Replace with actual screenshot
         links: {
         demo: "https://nuevavizcayappo.pro2.pnp.gov.ph/"
         }
@@ -119,7 +119,7 @@ const roles = [
       {
         title: "Oplan-VISA Website",
         description: "A front-end prototype developed for the Philippine National Police’s Oplan-VISA initiative. This responsive website showcases a modern, mobile-friendly interface that highlights the program's mission, objectives, and contact channels. Designed for accessibility and future integration with backend systems.",
-        image: "/images/oplan-visa.jpg", // Replace with actual screenshot
+        image: "images/oplan-visa.jpg", // Replace with actual screenshot
         links: {
         demo: "https://oplan-e-visa.vercel.app/"
         }
@@ -127,7 +127,7 @@ const roles = [
       {
         title: "PNP Quiz App",
         description: "A fully functional web-based quiz application designed for Philippine National Police personnel and aspiring applicants. The app features randomized questions, a scoring system, and real-time feedback. Built with responsive design for seamless use across desktop and mobile devices.",
-        image: "/images/pnpquiz-app.jpg", // Replace with actual screenshot
+        image: "images/pnpquiz-app.jpg", // Replace with actual screenshot
         links: {
         demo: "https://pnp-quiz-app.vercel.app/"
         }
@@ -136,7 +136,7 @@ const roles = [
       {
         title: "Tres Hot Plates",
         description: "A modern front-end website for Tres Hot Plates, a sizzling restaurant concept serving Filipino comfort food with a twist. This project showcases an eye-catching design, responsive layout, and engaging user interface — perfect for promoting the restaurant's menu, story, and contact details online. Built entirely using HTML, CSS, and JavaScript",
-        image: "/images/tres-hot-plates.jpg", // Replace with actual screenshot
+        image: "images/tres-hot-plates.jpg", // Replace with actual screenshot
         links: {
         demo: "https://github.com/YDeveloper09/Tres-Hot-Plates"
         }
@@ -145,7 +145,7 @@ const roles = [
       {
         title: "Library App",
         description: "A front-end web application designed for a local community library. This project features a clean and intuitive UI, allowing users to browse available books, explore categories, and access contact and membership information. Built with HTML, CSS, and JavaScript, the site is fully responsive and optimized for mobile and desktop viewing.",
-        image: "/images/library.jpg", // Replace with actual screenshot
+        image: "images/library.jpg", // Replace with actual screenshot
         links: {
         demo: "https://library-with-dash-board.vercel.app/"
         }
@@ -153,7 +153,7 @@ const roles = [
       {
         title: "Simon Game: Among Us Edition",
         description: "A fun and fully functional memory game inspired by the classic Simon Game, reimagined with an Among Us theme. Players must repeat an increasingly complex sequence of colors and sounds while enjoying visuals and sounds reminiscent of the hit game. Built with HTML, CSS, and JavaScript, this version features smooth transitions, responsive design, and playful animations to keep players engaged.",
-        image: "/images/simon-game.jpg", // Replace with actual screenshot
+        image: "images/simon-game.jpg", // Replace with actual screenshot
         links: {
         demo: "https://simon-game-with-among-us-inspired-design.vercel.app/"
         }
@@ -166,7 +166,7 @@ const roles = [
     title: "FXP App Promo Video",
     description: "A promotional video showcasing features of the FXP App for athletes, edited with Adobe Premiere and After Effects.",
     mediaType: "video",
-    mediaSrc: "/videos/fxp-teaser",
+    mediaSrc: "videos/fxp_teaser.mp4",
     links: {
       demo: "https://www.youtube.com/watch?v=8b4jPerFWJ0"
     }
@@ -175,7 +175,7 @@ const roles = [
     title: "Solano Police Station Entry | Police Service Anniversary Video",
     description: "This video is the official entry of Solano Police Station for the Best Municipal Police Station Regionwide Contest, in celebration of the Police Service Anniversary. It highlights their dedication to law enforcement, community service, and excellence in public safety.",
     mediaType: "video",
-    mediaSrc: "/videos/Police-Service-Anniversary.mp4",
+    mediaSrc: "videos/Police-Service-Anniversary.mp4",
     links: {
       demo: "https://www.youtube.com/watch?v=BdOxHPuHeEk"
     }
@@ -184,7 +184,7 @@ const roles = [
     title: "Nutrition & Hydration: The Athlete’s Secret Weapon",
     description: "Quick tips on why fueling your body right and staying hydrated are game changers for peak performance and recovery. Small habits, big impact!",
     mediaType: "video",
-    mediaSrc: "/videos/NUTRITION HABITS.mp4",
+    mediaSrc: "videos/NUTRITION HABITS.mp4",
     links: {
       demo: "https://www.instagram.com/p/DJcZsiIvLFf/"
     }
@@ -193,7 +193,7 @@ const roles = [
     title: "Summer Transfer Window Highlights",
     description: "Quick updates and key moves from the summer transfer window — who’s in, who’s out, and how squads are shaping up for the new season",
     mediaType: "video",
-    mediaSrc: "/videos/CLUB TRANSFER.mp4",
+    mediaSrc: "videos/CLUB TRANSFER.mp4",
     links: {
       demo: "https://www.instagram.com/p/DJpYkBkJlCN/"
     }
@@ -202,7 +202,7 @@ const roles = [
     title: "Game-Changing Football Boots – Built for Performance",
     description: "A dynamic reel showcasing a high-performance football boot designed to elevate solo training. This short video highlights how the new boot enhances grip, comfort, and control — giving players the edge they need when training alone",
     mediaType: "video",
-    mediaSrc: "/videos/New Boot.mp4",
+    mediaSrc: "videos/New Boot.mp4",
     links: {
       demo: "https://www.instagram.com/p/DJkO-7oPupE/"
     }
@@ -211,7 +211,7 @@ const roles = [
     title: "Solo Football Training Reel – Discipline Behind the Game",
     description: "A short-form motivational reel highlighting the importance of solo training in football. This video emphasizes self-discipline, consistency, and skill-building through individual drills.",
     mediaType: "video",
-    mediaSrc: "/videos/SOLO TRAINING.mp4",
+    mediaSrc: "videos/SOLO TRAINING.mp4",
     links: {
       demo: "https://www.instagram.com/p/DJcZsiIvLFf/"
     }
